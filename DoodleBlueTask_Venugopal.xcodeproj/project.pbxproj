@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28458DA424C81C1400F91D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28458DA324C81C1400F91D95 /* AppDelegate.swift */; };
+		28458DA624C81C1400F91D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28458DA524C81C1400F91D95 /* SceneDelegate.swift */; };
+		28458DA824C81C1400F91D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28458DA724C81C1400F91D95 /* ViewController.swift */; };
+		28458DAB24C81C1400F91D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28458DA924C81C1400F91D95 /* Main.storyboard */; };
+		28458DAD24C81C1900F91D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28458DAC24C81C1900F91D95 /* Assets.xcassets */; };
+		28458DB024C81C1900F91D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28458DAE24C81C1900F91D95 /* LaunchScreen.storyboard */; };
+		28458DBB24C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28458DBA24C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.swift */; };
+		28458DC624C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28458DC524C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.swift */; };
+		288D21DB24CC70A2001B525F /* UserModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 288D21DA24CC70A2001B525F /* UserModel.json */; };
+		288D21E024CC76BC001B525F /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D21DF24CC76BC001B525F /* UserDataModel.swift */; };
+		288D21E224CC794D001B525F /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D21E124CC794D001B525F /* MainModel.swift */; };
+		28EBF7C024C860F700BD456D /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBF7BF24C860F700BD456D /* UsersCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28458DB724C81C1900F91D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28458D9824C81C1400F91D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28458D9F24C81C1400F91D95;
+			remoteInfo = DoodleBlueTask_Venugopal;
+		};
+		28458DC224C81C1900F91D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28458D9824C81C1400F91D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28458D9F24C81C1400F91D95;
+			remoteInfo = DoodleBlueTask_Venugopal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28458DA024C81C1400F91D95 /* DoodleBlueTask_Venugopal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleBlueTask_Venugopal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28458DA324C81C1400F91D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28458DA524C81C1400F91D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28458DA724C81C1400F91D95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28458DAA24C81C1400F91D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28458DAC24C81C1900F91D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28458DAF24C81C1900F91D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28458DB124C81C1900F91D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28458DB624C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleBlueTask_VenugopalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28458DBA24C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleBlueTask_VenugopalTests.swift; sourceTree = "<group>"; };
+		28458DBC24C81C1900F91D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28458DC124C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleBlueTask_VenugopalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28458DC524C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleBlueTask_VenugopalUITests.swift; sourceTree = "<group>"; };
+		28458DC724C81C1900F91D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288D21DA24CC70A2001B525F /* UserModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserModel.json; sourceTree = "<group>"; };
+		288D21DF24CC76BC001B525F /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		288D21E124CC794D001B525F /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		28EBF7BF24C860F700BD456D /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28458D9D24C81C1400F91D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DB324C81C1900F91D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DBE24C81C1900F91D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28458D9724C81C1400F91D95 = {
+			isa = PBXGroup;
+			children = (
+				28458DA224C81C1400F91D95 /* DoodleBlueTask_Venugopal */,
+				28458DB924C81C1900F91D95 /* DoodleBlueTask_VenugopalTests */,
+				28458DC424C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests */,
+				28458DA124C81C1400F91D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28458DA124C81C1400F91D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28458DA024C81C1400F91D95 /* DoodleBlueTask_Venugopal.app */,
+				28458DB624C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.xctest */,
+				28458DC124C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28458DA224C81C1400F91D95 /* DoodleBlueTask_Venugopal */ = {
+			isa = PBXGroup;
+			children = (
+				288D21DE24CC7677001B525F /* View */,
+				288D21DC24CC7667001B525F /* Model */,
+				28458DA324C81C1400F91D95 /* AppDelegate.swift */,
+				28458DA524C81C1400F91D95 /* SceneDelegate.swift */,
+				28458DA724C81C1400F91D95 /* ViewController.swift */,
+				288D21DA24CC70A2001B525F /* UserModel.json */,
+				28EBF7BF24C860F700BD456D /* UsersCollectionViewCell.swift */,
+				28458DA924C81C1400F91D95 /* Main.storyboard */,
+				28458DAC24C81C1900F91D95 /* Assets.xcassets */,
+				28458DAE24C81C1900F91D95 /* LaunchScreen.storyboard */,
+				28458DB124C81C1900F91D95 /* Info.plist */,
+			);
+			path = DoodleBlueTask_Venugopal;
+			sourceTree = "<group>";
+		};
+		28458DB924C81C1900F91D95 /* DoodleBlueTask_VenugopalTests */ = {
+			isa = PBXGroup;
+			children = (
+				28458DBA24C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.swift */,
+				28458DBC24C81C1900F91D95 /* Info.plist */,
+			);
+			path = DoodleBlueTask_VenugopalTests;
+			sourceTree = "<group>";
+		};
+		28458DC424C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28458DC524C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.swift */,
+				28458DC724C81C1900F91D95 /* Info.plist */,
+			);
+			path = DoodleBlueTask_VenugopalUITests;
+			sourceTree = "<group>";
+		};
+		288D21DC24CC7667001B525F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				288D21DF24CC76BC001B525F /* UserDataModel.swift */,
+				288D21E124CC794D001B525F /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		288D21DE24CC7677001B525F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28458D9F24C81C1400F91D95 /* DoodleBlueTask_Venugopal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28458DCA24C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_Venugopal" */;
+			buildPhases = (
+				28458D9C24C81C1400F91D95 /* Sources */,
+				28458D9D24C81C1400F91D95 /* Frameworks */,
+				28458D9E24C81C1400F91D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodleBlueTask_Venugopal;
+			productName = DoodleBlueTask_Venugopal;
+			productReference = 28458DA024C81C1400F91D95 /* DoodleBlueTask_Venugopal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28458DB524C81C1900F91D95 /* DoodleBlueTask_VenugopalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28458DCD24C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_VenugopalTests" */;
+			buildPhases = (
+				28458DB224C81C1900F91D95 /* Sources */,
+				28458DB324C81C1900F91D95 /* Frameworks */,
+				28458DB424C81C1900F91D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28458DB824C81C1900F91D95 /* PBXTargetDependency */,
+			);
+			name = DoodleBlueTask_VenugopalTests;
+			productName = DoodleBlueTask_VenugopalTests;
+			productReference = 28458DB624C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28458DC024C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28458DD024C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_VenugopalUITests" */;
+			buildPhases = (
+				28458DBD24C81C1900F91D95 /* Sources */,
+				28458DBE24C81C1900F91D95 /* Frameworks */,
+				28458DBF24C81C1900F91D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28458DC324C81C1900F91D95 /* PBXTargetDependency */,
+			);
+			name = DoodleBlueTask_VenugopalUITests;
+			productName = DoodleBlueTask_VenugopalUITests;
+			productReference = 28458DC124C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28458D9824C81C1400F91D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Venugopal;
+				TargetAttributes = {
+					28458D9F24C81C1400F91D95 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					28458DB524C81C1900F91D95 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 28458D9F24C81C1400F91D95;
+					};
+					28458DC024C81C1900F91D95 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 28458D9F24C81C1400F91D95;
+					};
+				};
+			};
+			buildConfigurationList = 28458D9B24C81C1400F91D95 /* Build configuration list for PBXProject "DoodleBlueTask_Venugopal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28458D9724C81C1400F91D95;
+			productRefGroup = 28458DA124C81C1400F91D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28458D9F24C81C1400F91D95 /* DoodleBlueTask_Venugopal */,
+				28458DB524C81C1900F91D95 /* DoodleBlueTask_VenugopalTests */,
+				28458DC024C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28458D9E24C81C1400F91D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28458DB024C81C1900F91D95 /* LaunchScreen.storyboard in Resources */,
+				28458DAD24C81C1900F91D95 /* Assets.xcassets in Resources */,
+				28458DAB24C81C1400F91D95 /* Main.storyboard in Resources */,
+				288D21DB24CC70A2001B525F /* UserModel.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DB424C81C1900F91D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DBF24C81C1900F91D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28458D9C24C81C1400F91D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288D21E024CC76BC001B525F /* UserDataModel.swift in Sources */,
+				28458DA824C81C1400F91D95 /* ViewController.swift in Sources */,
+				288D21E224CC794D001B525F /* MainModel.swift in Sources */,
+				28458DA424C81C1400F91D95 /* AppDelegate.swift in Sources */,
+				28EBF7C024C860F700BD456D /* UsersCollectionViewCell.swift in Sources */,
+				28458DA624C81C1400F91D95 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DB224C81C1900F91D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28458DBB24C81C1900F91D95 /* DoodleBlueTask_VenugopalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28458DBD24C81C1900F91D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28458DC624C81C1900F91D95 /* DoodleBlueTask_VenugopalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28458DB824C81C1900F91D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28458D9F24C81C1400F91D95 /* DoodleBlueTask_Venugopal */;
+			targetProxy = 28458DB724C81C1900F91D95 /* PBXContainerItemProxy */;
+		};
+		28458DC324C81C1900F91D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28458D9F24C81C1400F91D95 /* DoodleBlueTask_Venugopal */;
+			targetProxy = 28458DC224C81C1900F91D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28458DA924C81C1400F91D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28458DAA24C81C1400F91D95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28458DAE24C81C1900F91D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28458DAF24C81C1900F91D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28458DC824C81C1900F91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28458DC924C81C1900F91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28458DCB24C81C1900F91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_Venugopal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-Venugopal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28458DCC24C81C1900F91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_Venugopal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-Venugopal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28458DCE24C81C1900F91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_VenugopalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-VenugopalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleBlueTask_Venugopal.app/DoodleBlueTask_Venugopal";
+			};
+			name = Debug;
+		};
+		28458DCF24C81C1900F91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_VenugopalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-VenugopalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleBlueTask_Venugopal.app/DoodleBlueTask_Venugopal";
+			};
+			name = Release;
+		};
+		28458DD124C81C1900F91D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_VenugopalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-VenugopalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoodleBlueTask_Venugopal;
+			};
+			name = Debug;
+		};
+		28458DD224C81C1900F91D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P57J4SS79K;
+				INFOPLIST_FILE = DoodleBlueTask_VenugopalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.DoodleBlueTask-VenugopalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoodleBlueTask_Venugopal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28458D9B24C81C1400F91D95 /* Build configuration list for PBXProject "DoodleBlueTask_Venugopal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28458DC824C81C1900F91D95 /* Debug */,
+				28458DC924C81C1900F91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28458DCA24C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_Venugopal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28458DCB24C81C1900F91D95 /* Debug */,
+				28458DCC24C81C1900F91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28458DCD24C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_VenugopalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28458DCE24C81C1900F91D95 /* Debug */,
+				28458DCF24C81C1900F91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28458DD024C81C1900F91D95 /* Build configuration list for PBXNativeTarget "DoodleBlueTask_VenugopalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28458DD124C81C1900F91D95 /* Debug */,
+				28458DD224C81C1900F91D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28458D9824C81C1400F91D95 /* Project object */;
+}

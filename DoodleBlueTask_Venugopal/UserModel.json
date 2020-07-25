@@ -1,0 +1,47 @@
+[
+    {
+        "headerName": "Companies",
+        "type": 0,
+        "headerArray": [
+            {
+                "name": "amazon",
+                "image": "amazon"
+            },
+            {
+                "name": "apple",
+                "image": "apple"
+            },
+            {
+                "name": "dell",
+                "image": "dell"
+            },
+            {
+                "name": "ferrari",
+                "image": "ferrari"
+            }
+        ]
+    },
+    {
+        "headerName": "Companies",
+        "type": 0,
+        "headerArray": [
+            {
+                "name": "microsoft",
+                "image": "microsoft"
+            },
+            {
+                "name": "uber-taxi",
+                "image": "uber-taxi"
+            },
+            {
+                "name": "zomato",
+                "image": "zomato"
+            },
+            {
+                "name": "intel",
+                "image": "intel"
+            }
+            
+        ]
+    }
+]
